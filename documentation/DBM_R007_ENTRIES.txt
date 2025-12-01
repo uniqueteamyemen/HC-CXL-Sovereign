@@ -1,0 +1,1 @@
+[SIGN] DOCKER_COSIGN_OK | digest=sha256:867b0a13599991af9967fad2abbb1125d71f1b72f56cac2fa23aba9f2cf19e11 | sigs=2 | pk=proofs/cosign.pub | ts=2025-12-01T03:36:48.7381014+03:00

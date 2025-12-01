@@ -1,0 +1,17 @@
+{
+  "timestamp": "2025-12-01T03:36:48.7381014+03:00",
+  "notes": "Documentation layer only — does NOT modify the executable sealed artifacts.",
+  "drac_doc_version": "V2.1_DOC",
+  "docker_signature": {
+    "digest": "sha256:867b0a13599991af9967fad2abbb1125d71f1b72f56cac2fa23aba9f2cf19e11",
+    "docker_reference": "index.docker.io/uniqueteamyemen/hc-cxl-test@sha256:867b0a13599991af9967fad2abbb1125d71f1b72f56cac2fa23aba9f2cf19e11",
+    "public_key_path": "proofs/cosign.pub",
+    "verification": {
+      "public_key_verified": true,
+      "claims_validated": true,
+      "signature_type": "https://sigstore.dev/cosign/sign/v1",
+      "transparency_log_verified_offline": true
+    },
+    "signatures_count": 2
+  }
+}
