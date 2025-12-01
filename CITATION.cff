@@ -1,0 +1,10 @@
+﻿cff-version: 1.2.0
+title: "HC-CXL Sovereign Protocol V2.1 — Documentation Layer"
+authors:
+  - family-names: "Awadh"
+    given-names: "Abobker Ahmed"
+    email: "uniqueteamyemen@gmail.com"
+license: Apache-2.0
+url: "https://github.com/uniqueteamyemen/HC-CXL-Sovereign"
+version: "2.1"
+message: "Please cite this work if you use the HC-CXL sovereign documentation or evidence."
