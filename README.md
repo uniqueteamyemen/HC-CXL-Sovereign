@@ -152,3 +152,6 @@ Dr. Abobker Ahmed Awadh
 
 
 ![Status](https://img.shields.io/badge/Sovereign-V2.1-blue) ![Integrity](https://img.shields.io/badge/HashChain-Verified-green) ![Sealed](https://img.shields.io/badge/DRAC-Sealed-brightgreen)
+
+## **Official Documentation Site**
+https://uniqueteamyemen.github.io/HC-CXL-Sovereign/
