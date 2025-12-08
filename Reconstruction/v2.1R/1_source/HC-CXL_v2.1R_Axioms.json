@@ -1,0 +1,18 @@
+﻿{
+    "axioms_version":  "2.1R",
+    "foundational":  [
+                         {
+                             "id":  "AX1",
+                             "rule":  "Pre-Sterilization must precede any reconstruction"
+                         },
+                         {
+                             "id":  "AX2",
+                             "rule":  "W_PMP precedes Physics-Bounded Execution"
+                         },
+                         {
+                             "id":  "AX3",
+                             "rule":  "All measurements tied to digest B6C66BD929F46B8BF6B920BA6C634972E7B83CA607AD4B5A1042B4AC06A1E203"
+                         }
+                     ],
+    "reference_digest":  "B6C66BD929F46B8BF6B920BA6C634972E7B83CA607AD4B5A1042B4AC06A1E203"
+}

@@ -1,0 +1,22 @@
+﻿{
+    "package_size_bytes":  5939,
+    "package_hash":  "552F177716917D86739E8CBE4FA0F7B6850E13DDD37A240B3294D35C0186688B",
+    "timestamp":  "2025-12-07T20:23:27.4408561+03:00",
+    "total_files":  12,
+    "files_transported":  [
+                              "HC-CXL_v2.1R_Architecture.md",
+                              "HC-CXL_v2.1R_Axioms.json",
+                              "HC-CXL_v2.1R_Definitions.md",
+                              "HC-CXL_v2.1R_Measurement_Model.json",
+                              "HC-CXL_v2.1R_Modification_Map.json",
+                              "HC-CXL_v2.1R_Protocol.md",
+                              "HC-CXL_v2.1R_Reference_Model.json",
+                              "HC-CXL_v2.1R_Theory.md",
+                              "HC-CXL_v2.1R_Validation_Map.json",
+                              "operational_model_v21r.md",
+                              "Unified_References_v21R.md",
+                              "v2.1R_measurement_schema.json"
+                          ],
+    "operation":  "TRANSPORT_ONLY",
+    "layer":  "LAYER1_RAW_BUILD"
+}

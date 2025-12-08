@@ -1,0 +1,14 @@
+﻿# HC-CXL v2.1R — Protocol Specification
+
+## Reference Digest
+B6C66BD929F46B8BF6B920BA6C634972E7B83CA607AD4B5A1042B4AC06A1E203
+
+## Core Commands
+- HC-CXL-QUIESCE(0.95µs)
+- HC-CXL-VALIDATE-STATE()
+- HC-CXL-VERIFY-REFERENCE('B6C66BD929F46B8BF6B920BA6C634972E7B83CA607AD4B5A1042B4AC06A1E203')
+
+## Rules
+1. Pre-Sterilization is mandatory.
+2. W_PMP precedes Physics-Bounded Execution.
+3. Semantic drift threshold: 0.02

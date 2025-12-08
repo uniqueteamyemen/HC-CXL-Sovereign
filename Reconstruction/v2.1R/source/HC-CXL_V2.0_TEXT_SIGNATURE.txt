@@ -1,0 +1,11 @@
+﻿===============================
+HC-CXL V2.0 LEGACY SIGNATURE
+===============================
+Version: 2.0
+Status: LEGACY-FROZEN
+Signed-By: Hossam Sovereign Executor
+Authority: Dr. Abobker A. Awadh
+Timestamp: 2025-11-27T20:47:49Z
+SHA256: 2C0E0FA8AB807F7E2FC666731E4B5A028C72C936E834BB5DDB3FEA5785D8FDD0
+Note: This signature freezes V2.0 as a historical artifact prior to V2.1 realignment.
+===============================

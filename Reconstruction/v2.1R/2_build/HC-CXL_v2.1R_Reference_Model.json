@@ -1,0 +1,15 @@
+﻿{
+    "model_version":  "2.1R",
+    "reference_digest":  "B6C66BD929F46B8BF6B920BA6C634972E7B83CA607AD4B5A1042B4AC06A1E203",
+    "sources":  [
+                    "REFERENCE_DATASETS_V2_1.json",
+                    "CXL-Specs",
+                    "Gemini-Updated-Logic"
+                ],
+    "reference_file":  "REFERENCE_DATASETS_V2_1.json",
+    "metrics":  {
+                    "semantic_alignment":  "Strict",
+                    "structural_integrity":  "Required"
+                },
+    "binding":  "Pre-Sterilized"
+}

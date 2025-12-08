@@ -1,0 +1,32 @@
+{
+  "build_timestamp": "2025-12-07T22:29:23.2168041+03:00",
+  "project": "HC-CXL",
+  "binding_record_version": "v1.0",
+  "notes": "H1 is package SHA256; H3 is image manifest digest. commit_hash and doi to be added later.",
+  "h1": {
+    "artifact": "HC-CXL_v2.1R_SOVEREIGN_PACKAGE.zip",
+    "hash": "27C2777A04B0DE2B9BC9C9688EF4F6A6278B7429E0F0E6F3870420A66EC789F8",
+    "hash_algorithm": "SHA256"
+  },
+  "h3": {
+    "signed_by": {
+      "public_key_path": "D:\\HC-CXL\\Archive\\Sovereign_V2_1\\proofs\\cosign.pub",
+      "key_path": "D:\\HC-CXL\\Archive\\Sovereign_V2_1\\keys\\cosign.key"
+    },
+    "image_reference": "docker.io/uniqueteamyemen/hc-cxl-test@sha256:769e8710c5bb28fefb8c51892aabb4f7f0e9cb9acb2fe18cd8051b52b21af42d",
+    "manifest_digest": "sha256:769e8710c5bb28fefb8c51892aabb4f7f0e9cb9acb2fe18cd8051b52b21af42d",
+    "tag": "2.1R",
+    "repository": "uniqueteamyemen/hc-cxl-test"
+  },
+  "release": "v2.1R",
+  "provenance": {
+    "rekor_inclusion": null,
+    "esvl_verification": {
+      "executor": "hcxcxl-verifier:2.1R",
+      "verifier_output_summary": [
+        "Manifest found in 2_build.",
+        "Sovereign Verification Record found in 3_seal."
+      ]
+    }
+  }
+}

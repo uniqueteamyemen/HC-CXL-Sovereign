@@ -1,0 +1,26 @@
+﻿{
+    "version":  "2.1R_SM",
+    "timestamp":  "2025-12-05T19:19:37Z",
+    "total_files":  21,
+    "source_version":  "V2.0_FROZEN",
+    "target_version":  "V2.1R",
+    "new_files_to_create":  [
+                                "HC-CXL_v2.1R_Theory.md",
+                                "HC-CXL_v2.1R_Architecture.md",
+                                "HC-CXL_v2.1R_Protocol.md",
+                                "HC-CXL_v2.1R_Definitions.md",
+                                "HC-CXL_v2.1R_Reference_Model.md",
+                                "HC-CXL_v2.1R_Measurement_Model.json",
+                                "HC-CXL_v2.1R_Axioms.json",
+                                "HC-CXL_v2.1R_Governance.md",
+                                "HC-CXL_v2.1R_Validation_Map.json",
+                                "operational_model_v21r.md",
+                                "Unified_References_v21R.md",
+                                "v2.1R_measurement_schema.json"
+                            ],
+    "deprecated_files":  [
+                             "firestore-rules.txt",
+                             "setup-firebase.ps1",
+                             "docker-compose.prod.yml"
+                         ]
+}

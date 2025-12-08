@@ -1,0 +1,24 @@
+﻿{
+    "scaling_factor":  150,
+    "measurement_units":  {
+                              "financial":  "USD",
+                              "time":  "microseconds",
+                              "performance":  "percentage",
+                              "reliability":  "percentage"
+                          },
+    "version":  "2.1R",
+    "key_metrics":  {
+                        "cpu_overhead_percent":  0.28,
+                        "rollback_equiesce_time":  0.95,
+                        "ttsa_delay_ms":  35,
+                        "failure_reduction":  71,
+                        "annual_cost_saving":  48000
+                    },
+    "validation_thresholds":  {
+                                  "reliability":  "\u003e=95%",
+                                  "semantic_consistency":  "100%",
+                                  "hash_match":  "100%",
+                                  "performance_improvement":  "\u003e=85%"
+                              },
+    "reference_digest":  "B6C66BD929F46B8BF6B920BA6C634972E7B83CA607AD4B5A1042B4AC06A1E203"
+}

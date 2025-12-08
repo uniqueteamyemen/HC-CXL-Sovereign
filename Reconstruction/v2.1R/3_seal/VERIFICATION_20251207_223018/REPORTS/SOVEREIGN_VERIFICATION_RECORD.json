@@ -1,0 +1,70 @@
+{
+  "package_hash": "27C2777A04B0DE2B9BC9C9688EF4F6A6278B7429E0F0E6F3870420A66EC789F8",
+  "document_type": "SOVEREIGN_VERIFICATION_RECORD",
+  "verifier": {
+    "fingerprint": "5552541D93559EEF53A2DEB4B20DE574B24DA9E3"
+  },
+  "checks": [
+    {
+      "file": "Component_A_Draft.txt",
+      "status": "PASS"
+    },
+    {
+      "file": "HC-CXL_v2.1R_Architecture.md",
+      "status": "PASS"
+    },
+    {
+      "file": "HC-CXL_v2.1R_Axioms.json",
+      "status": "PASS"
+    },
+    {
+      "file": "HC-CXL_v2.1R_Core_Spec.txt",
+      "status": "PASS"
+    },
+    {
+      "file": "HC-CXL_v2.1R_Definitions.md",
+      "status": "PASS"
+    },
+    {
+      "file": "HC-CXL_v2.1R_Measurement_Model.json",
+      "status": "PASS"
+    },
+    {
+      "file": "HC-CXL_v2.1R_Modification_Map.json",
+      "status": "PASS"
+    },
+    {
+      "file": "HC-CXL_v2.1R_Protocol.md",
+      "status": "PASS"
+    },
+    {
+      "file": "HC-CXL_v2.1R_Reference_Model.json",
+      "status": "PASS"
+    },
+    {
+      "file": "HC-CXL_v2.1R_Theory.md",
+      "status": "PASS"
+    },
+    {
+      "file": "HC-CXL_v2.1R_Validation_Map.json",
+      "status": "PASS"
+    },
+    {
+      "file": "operational_model_v21r.md",
+      "status": "PASS"
+    },
+    {
+      "file": "Unified_References_v21R.md",
+      "status": "PASS"
+    },
+    {
+      "file": "v2.1R_measurement_schema.json",
+      "status": "PASS"
+    },
+    {
+      "file": "HC-CXL_v2.1R_SOVEREIGN_PACKAGE.zip",
+      "status": "FAIL"
+    }
+  ],
+  "timestamp": "2025-12-07T22:30:18.6287866+03:00"
+}

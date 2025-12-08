@@ -1,0 +1,10 @@
+﻿{
+  "version": "2.0",
+  "status": "FROZEN",
+  "frozen_reason": "Superseded by V2.1 (REF_REALIGN_V2_1_ACTIVATION)",
+  "build_time": "2025-11-27T20:39:43.7345612+03:00",
+  "source_directory": "D:/V2.0_CLEAN",
+  "package_path": "D:/HC-CXL/V2.0_FROZEN/HC-CXL_V2.0_FROZEN_FINAL.zip",
+  "hash_algorithm": "SHA256",
+  "note": "This version is archived permanently and will be referenced during sovereign governance but never used operationally."
+}

@@ -1,0 +1,121 @@
+{
+  "outcome": "SUCCESS",
+  "details": "Package created",
+  "event": "BUILDER_COMPLETED",
+  "extra": {
+    "package_hash": "27C2777A04B0DE2B9BC9C9688EF4F6A6278B7429E0F0E6F3870420A66EC789F8",
+    "file_count": 15
+  },
+  "timestamp": "2025-12-07T22:29:23.2694929+03:00"
+}
+{
+  "host": "DESKTOP-U4U1B98",
+  "outcome": "STARTED",
+  "extra": {
+    "package": "HC-CXL_v2.1R_SOVEREIGN_PACKAGE.zip"
+  },
+  "event": "VERIFIER_START",
+  "timestamp": "2025-12-07T22:29:23.3682441+03:00",
+  "runner": "Thinkpad",
+  "details": "Copied package and manifest to evidence"
+}
+{
+  "host": "DESKTOP-U4U1B98",
+  "outcome": "PARTIAL",
+  "extra": {
+    "missing": [
+      "HC-CXL_v2.1R_SOVEREIGN_PACKAGE.zip"
+    ]
+  },
+  "event": "VERIFIER_WARNING",
+  "timestamp": "2025-12-07T22:29:23.4375148+03:00",
+  "runner": "Thinkpad",
+  "details": "Missing files in package"
+}
+{
+  "host": "DESKTOP-U4U1B98",
+  "outcome": "FAILED",
+  "extra": {},
+  "event": "VERIFIER_FAILED",
+  "timestamp": "2025-12-07T22:29:23.4867650+03:00",
+  "runner": "Thinkpad",
+  "details": "The term 'if' is not recognized as a name of a cmdlet, function, script file, or executable program.\r\nCheck the spelling of the name, or if a path was included, verify that the path is correct and try again."
+}
+{
+  "outcome": "INFO",
+  "details": "Sovereign Publication Finalization entered",
+  "event": "SPF_ENTER",
+  "extra": {},
+  "timestamp": "2025-12-07T22:29:25.0416840+03:00"
+}
+{
+  "outcome": "INFO",
+  "details": "Proceeding with package-level signing/publishing",
+  "event": "PUBLISHER_PACKAGE_SIGN",
+  "extra": {},
+  "timestamp": "2025-12-07T22:29:25.0424130+03:00"
+}
+{
+  "outcome": "SUCCESS",
+  "details": "Publication finished",
+  "event": "PUBLISHER_COMPLETED",
+  "extra": {},
+  "timestamp": "2025-12-07T22:29:25.0535452+03:00"
+}
+{
+  "host": "DESKTOP-U4U1B98",
+  "outcome": "STARTED",
+  "extra": {},
+  "event": "VERIFIER_START",
+  "timestamp": "2025-12-07T22:30:18.5664343+03:00",
+  "runner": "Thinkpad",
+  "details": "Environment ready"
+}
+{
+  "host": "DESKTOP-U4U1B98",
+  "outcome": "SUCCESS",
+  "extra": {},
+  "event": "VERIFIER_RECORD_CREATED",
+  "timestamp": "2025-12-07T22:30:18.6361851+03:00",
+  "runner": "Thinkpad",
+  "details": "Verification artifacts created"
+}
+{
+  "host": "DESKTOP-U4U1B98",
+  "outcome": "INFO",
+  "extra": {},
+  "event": "PACKAGE_SIGNING_FORBIDDEN",
+  "timestamp": "2025-12-07T22:30:18.9599003+03:00",
+  "runner": "Thinkpad",
+  "details": "Package signing blocked (SoD)"
+}
+{
+  "host": "DESKTOP-U4U1B98",
+  "outcome": "SUCCESS",
+  "extra": {},
+  "event": "VERIFIER_COMPLETED",
+  "timestamp": "2025-12-07T22:30:18.9610496+03:00",
+  "runner": "Thinkpad",
+  "details": "Verifier finished successfully"
+}
+{
+  "outcome": "INFO",
+  "details": "Sovereign Publication Finalization entered",
+  "event": "SPF_ENTER",
+  "extra": {},
+  "timestamp": "2025-12-07T22:33:50.1414216+03:00"
+}
+{
+  "outcome": "INFO",
+  "details": "Proceeding with package-level signing/publishing",
+  "event": "PUBLISHER_PACKAGE_SIGN",
+  "extra": {},
+  "timestamp": "2025-12-07T22:33:50.1430101+03:00"
+}
+{
+  "outcome": "SUCCESS",
+  "details": "Publication finished",
+  "event": "PUBLISHER_COMPLETED",
+  "extra": {},
+  "timestamp": "2025-12-07T22:33:50.1587329+03:00"
+}

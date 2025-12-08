@@ -1,0 +1,15 @@
+// HC-CXL PMP V2.0 - Firestore Security Rules
+// Deploy these in Firebase Console > Firestore > Rules
+
+rules_version = '2';
+service cloud.firestore {
+    match /databases/{database}/documents {
+        // Public discussion area for HC-CXL PMP testers
+        match /artifacts/{appId}/public/data/tester_discussions/{document} {
+            allow read, write: if request.auth != null;
+            allow create: if request.auth != null 
+                && request.resource.data.keys().hasAll(['userId', 'text', 'timestamp'])
+                && request.auth.uid == request.resource.data.userId;
+        }
+    }
+}

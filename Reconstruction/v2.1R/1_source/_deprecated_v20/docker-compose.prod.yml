@@ -1,0 +1,26 @@
+services:
+  hc-cxl-app:
+    build:
+      context: ..
+      dockerfile: Docker/Dockerfile.prod
+    ports:
+      - "8000:8000"
+    environment:
+      - HC_CXL_VERSION=v2.0
+      - DEPLOYMENT_ENV=production
+      - SOVEREIGN_NODE=True
+    networks:
+      - hc_cxl_net
+
+  hc-cxl-validation:
+    build:
+      context: ..
+      dockerfile: Docker/Dockerfile.validation
+    environment:
+      - VALIDATION_MODE=full
+    networks:
+      - hc_cxl_net
+
+networks:
+  hc_cxl_net:
+    driver: bridge

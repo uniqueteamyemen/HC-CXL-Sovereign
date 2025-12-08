@@ -1,0 +1,37 @@
+﻿{
+    "required_files":  [
+                           "HC-CXL_v2.1R_Theory.md",
+                           "HC-CXL_v2.1R_Governance.md",
+                           "HC-CXL_v2.1R_Measurement_Model.json",
+                           "HC-CXL_v2.1R_Modification_Map.json"
+                       ],
+    "validation_phases":  [
+                              {
+                                  "phase":  "A",
+                                  "name":  "Pre-Reconstruction Guard",
+                                  "checks":  [
+                                                 "تأكيد صحة SISB",
+                                                 "نسخ COE إلى منطقة العمل",
+                                                 "حماية ملفات المصدر"
+                                             ]
+                              },
+                              {
+                                  "phase":  "B",
+                                  "name":  "Semantic Reconstruction",
+                                  "checks":  [
+                                                 "تعديل الملفات الأساسية",
+                                                 "إنشاء الملفات الجديدة",
+                                                 "تحديث المرجعيات"
+                                             ]
+                              },
+                              {
+                                  "phase":  "C",
+                                  "name":  "Internal Verification",
+                                  "checks":  [
+                                                 "التحقق الدلالي",
+                                                 "التحقق الهيكلي",
+                                                 "التحقق من الانجراف"
+                                             ]
+                              }
+                          ]
+}
