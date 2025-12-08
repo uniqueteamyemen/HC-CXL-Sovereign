@@ -1,75 +1,84 @@
-{
-  "binding_record": {
-    "build_timestamp": "2025-12-07T22:29:23.2168041+03:00",
-    "project": "HC-CXL",
-    "binding_record_version": "v1.0",
-    "notes": "H1 is package SHA256; H3 is image manifest digest. commit_hash and doi to be added later.",
-    "h1": {
-      "artifact": "HC-CXL_v2.1R_SOVEREIGN_PACKAGE.zip",
-      "hash": "27C2777A04B0DE2B9BC9C9688EF4F6A6278B7429E0F0E6F3870420A66EC789F8",
-      "hash_algorithm": "SHA256"
-    },
-    "h3": {
-      "signed_by": {
-        "public_key_path": "D:\\HC-CXL\\Archive\\Sovereign_V2_1\\proofs\\cosign.pub",
-        "key_path": "D:\\HC-CXL\\Archive\\Sovereign_V2_1\\keys\\cosign.key"
-      },
-      "image_reference": "docker.io/uniqueteamyemen/hc-cxl-test@sha256:769e8710c5bb28fefb8c51892aabb4f7f0e9cb9acb2fe18cd8051b52b21af42d",
-      "manifest_digest": "sha256:769e8710c5bb28fefb8c51892aabb4f7f0e9cb9acb2fe18cd8051b52b21af42d",
-      "tag": "2.1R",
-      "repository": "uniqueteamyemen/hc-cxl-test"
-    },
-    "release": "v2.1R",
-    "provenance": {
-      "rekor_inclusion": null,
-      "esvl_verification": {
-        "executor": "hcxcxl-verifier:2.1R",
-        "verifier_output_summary": [
-          "Manifest found in 2_build.",
-          "Sovereign Verification Record found in 3_seal."
-        ]
-      }
-    }
-  },
-  "ledger_id": "FSAL-HC-CXL-v2.1R-20251208202005",
-  "document_type": "Final_Sovereign_Audit_Ledger",
-  "notes": "commit_hash and doi to be filled after push to GitHub and upload to Zenodo.",
-  "ledger_version": "v2.1R_FINAL",
-  "signatures": [
-    {
-      "signer_public_key": "D:\\HC-CXL\\Archive\\Sovereign_V2_1\\proofs\\cosign.pub",
-      "signature_generated_on": "2025-12-08T20:52:25.9254324+03:00",
-      "cosign_verify_stdout": [],
-      "signer_key": "D:\\HC-CXL\\Archive\\Sovereign_V2_1\\keys\\cosign.key",
-      "signature_file": "D:\\HC-CXL\\SOVEREIGN_AUDIT_LEDGER.v2.1R.json.sig"
-    },
-    {
-      "note": "تم التوقيع والتحقق بنجاح يدويًا بعد محاولات فاشلة بسبب تعارض في صيغة الأوامر. الملفات سليمة وجاهزة.",
-      "signer_public_key": "D:\\HC-CXL\\Archive\\Sovereign_V2_1\\proofs\\cosign.pub",
-      "signature_generated_on": "2025-12-08T22:17:00.5915591+03:00",
-      "signature_bundle_file": "D:\\HC-CXL\\SOVEREIGN_AUDIT_LEDGER.v2.1R.json.bundle",
-      "cosign_sign_status": "SUCCESS_MANUAL_INTERACTIVE",
-      "signature_file": "D:\\HC-CXL\\SOVEREIGN_AUDIT_LEDGER.v2.1R.json.sig",
-      "signer_key": "D:\\HC-CXL\\Archive\\Sovereign_V2_1\\keys\\cosign.key",
-      "cosign_verify_status": "SUCCESS_MANUAL_VERIFICATION"
-    },
-    {
-      "signer_key": "D:\\HC-CXL\\Archive\\Sovereign_V2_1\\keys\\cosign.key",
-      "cosign_verify_status": "SUCCESS_FINAL_VERIFIED",
-      "signature_generated_on": "2025-12-08T22:35:45.8100639+03:00",
-      "note": "تم التوقيع والتحقق بنجاح. الختم مكتمل وجاهز للنشر.",
-      "signature_bundle_file": "D:\\HC-CXL\\SOVEREIGN_AUDIT_LEDGER.v2.1R.json.bundle",
-      "signature_file": "D:\\HC-CXL\\SOVEREIGN_AUDIT_LEDGER.v2.1R.json.sig",
-      "signer_public_key": "D:\\HC-CXL\\Archive\\Sovereign_V2_1\\proofs\\cosign.pub"
-    }
-  ],
-  "final_proofs": {
-    "ledger_signature_file": "D:\\HC-CXL\\SOVEREIGN_AUDIT_LEDGER.v2.1R.json.sig",
-    "signing_method": "Cosign/Sigstore (Keyed)",
-    "public_key_path": "D:\\HC-CXL\\Archive\\Sovereign_V2_1\\proofs\\cosign.pub",
-    "rekor_entry": "Final_Sign_Completed_FSAL_Sealed",
-    "signing_status": "SIGNATURE_VERIFIED_AND_SEALED",
-    "ledger_signature_bundle_file": "D:\\HC-CXL\\SOVEREIGN_AUDIT_LEDGER.v2.1R.json.bundle"
-  },
-  "generated_on": "2025-12-08T20:20:05.8262174+03:00"
+﻿{
+    "binding_record":  {
+                           "build_timestamp":  "2025-12-07T22:29:23.2168041+03:00",
+                           "project":  "HC-CXL",
+                           "binding_record_version":  "v1.0",
+                           "notes":  "H1 is package SHA256; H3 is image manifest digest. commit_hash and doi to be added later.",
+                           "h1":  {
+                                      "artifact":  "HC-CXL_v2.1R_SOVEREIGN_PACKAGE.zip",
+                                      "hash":  "27C2777A04B0DE2B9BC9C9688EF4F6A6278B7429E0F0E6F3870420A66EC789F8",
+                                      "hash_algorithm":  "SHA256"
+                                  },
+                           "h3":  {
+                                      "signed_by":  {
+                                                        "public_key_path":  "D:\\HC-CXL\\Archive\\Sovereign_V2_1\\proofs\\cosign.pub",
+                                                        "key_path":  "D:\\HC-CXL\\Archive\\Sovereign_V2_1\\keys\\cosign.key"
+                                                    },
+                                      "image_reference":  "docker.io/uniqueteamyemen/hc-cxl-test@sha256:769e8710c5bb28fefb8c51892aabb4f7f0e9cb9acb2fe18cd8051b52b21af42d",
+                                      "manifest_digest":  "sha256:769e8710c5bb28fefb8c51892aabb4f7f0e9cb9acb2fe18cd8051b52b21af42d",
+                                      "tag":  "2.1R",
+                                      "repository":  "uniqueteamyemen/hc-cxl-test"
+                                  },
+                           "release":  "v2.1R",
+                           "provenance":  {
+                                              "rekor_inclusion":  null,
+                                              "esvl_verification":  {
+                                                                        "executor":  "hcxcxl-verifier:2.1R",
+                                                                        "verifier_output_summary":  [
+                                                                                                        "Manifest found in 2_build.",
+                                                                                                        "Sovereign Verification Record found in 3_seal."
+                                                                                                    ]
+                                                                    }
+                                          }
+                       },
+    "ledger_id":  "FSAL-HC-CXL-v2.1R-20251208202005",
+    "document_type":  "Final_Sovereign_Audit_Ledger",
+    "notes":  "commit_hash and doi to be filled after push to GitHub and upload to Zenodo.",
+    "ledger_version":  "v2.1R_FINAL",
+    "signatures":  [
+                       {
+                           "cosign_verify_stderr":  "Error: searching log query: [POST /api/v1/log/entries/retrieve][400] searchLogQueryBadRequest {\"code\":400,\"message\":\"verifying signature: ecdsa: Invalid IEEE_P1363 encoded bytes\"}\nerror during command execution: searching log query: [POST /api/v1/log/entries/retrieve][400] searchLogQueryBadRequest {\"code\":400,\"message\":\"verifying signature: ecdsa: Invalid IEEE_P1363 encoded bytes\"}\n",
+                           "signer_key":  "D:\\HC-CXL\\Archive\\Sovereign_V2_1\\keys\\cosign.key",
+                           "signature_generated_on":  "2025-12-08T20:20:10.4876055+03:00",
+                           "cosign_verify_stdout":  [
+
+                                                    ],
+                           "signature_file":  "D:\\HC-CXL\\SOVEREIGN_AUDIT_LEDGER.v2.1R.json.sig",
+                           "signer_public_key":  "D:\\HC-CXL\\Archive\\Sovereign_V2_1\\proofs\\cosign.pub"
+                       },
+                       {
+                           "signer_public_key":  "D:\\HC-CXL\\Archive\\Sovereign_V2_1\\proofs\\cosign.pub",
+                           "signature_generated_on":  "2025-12-08T20:49:09.048802+03:00",
+                           "cosign_verify_stdout":  [
+
+                                                    ],
+                           "signer_key":  "D:\\HC-CXL\\Archive\\Sovereign_V2_1\\keys\\cosign.key",
+                           "signature_file":  "D:\\HC-CXL\\SOVEREIGN_AUDIT_LEDGER.v2.1R.json.sig"
+                       },
+                       {
+                           "signer_public_key":  "D:\\HC-CXL\\Archive\\Sovereign_V2_1\\proofs\\cosign.pub",
+                           "signature_generated_on":  "2025-12-08T20:52:25.9254324+03:00",
+                           "cosign_verify_stdout":  [
+
+                                                    ],
+                           "signer_key":  "D:\\HC-CXL\\Archive\\Sovereign_V2_1\\keys\\cosign.key",
+                           "signature_file":  "D:\\HC-CXL\\SOVEREIGN_AUDIT_LEDGER.v2.1R.json.sig"
+                       },
+                       {
+                           "signer_key":  "D:\\HC-CXL\\Archive\\Sovereign_V2_1\\keys\\cosign.key",
+                           "cosign_verify_stdout":  [
+
+                                                    ],
+                           "signature_file":  "D:\\HC-CXL\\SOVEREIGN_AUDIT_LEDGER.v2.1R.json.sig",
+                           "signature_generated_on":  "2025-12-08T21:10:31.3089536+03:00",
+                           "signer_public_key":  "D:\\HC-CXL\\Archive\\Sovereign_V2_1\\proofs\\cosign.pub"
+                       }
+                   ],
+    "final_proofs":  {
+                         "ledger_signature_file":  "D:\\HC-CXL\\SOVEREIGN_AUDIT_LEDGER.v2.1R.json.sig",
+                         "signing_method":  "Cosign/Sigstore (Keyed)",
+                         "public_key_path":  "D:\\HC-CXL\\Archive\\Sovereign_V2_1\\proofs\\cosign.pub",
+                         "rekor_entry":  "Manual_Sign_Completed"
+                     },
+    "generated_on":  "2025-12-08T20:20:05.8262174+03:00"
 }
