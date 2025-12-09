@@ -1,0 +1,35 @@
+{
+  "zenodo_metadata": {
+    "title": "HC-CXL v2.0: Human-Centric Compute Express Link Protocol with Sovereign Governance",
+    "creators": [
+      {
+        "name": "Awad, Dr. Abubakr Ahmed",
+        "affiliation": "Unique Team Office, Aden, Yemen"
+      }
+    ],
+    "description": "Complete implementation of HC-CXL v2.0 protocol with sovereign governance, experimental validation data, and production-ready deployment pipeline.",
+    "keywords": [
+      "cxl-protocol",
+      "sovereign-computing", 
+      "hardware-software-co-design",
+      "edge-computing",
+      "experimental-validation"
+    ],
+    "license": "cc-by-4.0",
+    "upload_type": "software",
+    "version": "2.0",
+    "publication_date": "2025-11-12"
+  },
+  "files_to_include": [
+    "Docker/docker-compose.prod.yml",
+    "Docker/Dockerfile.prod",
+    "Tests/test_validation_suite.py", 
+    "Governance/Custody/Custody_Record_v2.1.json",
+    "Governance/HC-CXL_v2.0_Ethical_Legal_Framework.txt",
+    "Reports/HC-CXL_v2.0_Timeline_Report.txt",
+    "Legal/IP_Declaration_v2.0.txt",
+    "Experiments/experimental_results.json",
+    "Deployment/deploy_hc_cxl.sh"
+  ],
+  "sovereignty_notice": "All artifacts remain under the legal sovereignty of Unique Team Office, Aden, Yemen"
+}

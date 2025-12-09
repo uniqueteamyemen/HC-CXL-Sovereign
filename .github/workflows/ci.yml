@@ -1,0 +1,41 @@
+name: HC-CXL CI
+on:
+  push:
+    branches: [ "main", "release/*" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v2
+
+      - name: Build and run docker-compose tests
+        run: |
+          docker compose -f docker-compose.yml up --build --abort-on-container-exit
+          EXIT_CODE=$?
+          docker compose -f docker-compose.yml down
+          if [ $EXIT_CODE -ne 0 ]; then
+            echo "Tests failed with exit code $EXIT_CODE"
+            exit $EXIT_CODE
+          fi
+
+      - name: Upload test artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: hc-cxl-test-results
+          path: ./test-results || ./artifacts || /tmp/hc-cxl-results
+
+      - name: Create release draft (optional)
+        if: github.event_name == 'push' && startsWith(github.ref, 'refs/heads/release/')
+        uses: ncipollo/release-action@v1
+        with:
+          tag: ${{ github.ref_name }}
+          name: "HC-CXL ${{ github.ref_name }}"
+          body: "Automated draft release (CI)."
